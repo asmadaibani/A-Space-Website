@@ -1,0 +1,186 @@
+html{
+    scroll-behavior:smooth;
+}
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+body{ 
+    overflow-x: hidden; 
+    background-image: url('https://cdn.pixabay.com/photo/2017/02/08/12/46/moon-2048727_960_720.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+
+}
+header{
+    /* background-color: brown; */
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    color: white;
+    z-index: 10;
+    top: 0;
+}
+
+.header-op,
+.header-div{
+    display: flex;
+}
+
+.header-div{
+    justify-content: space-between;
+    align-items: center;
+    height: 100%; 
+}
+
+.header-op div{
+    margin-right: 2em;
+    transition: 0.4s;
+}
+.anything{
+    transition: 0.4s;
+}
+.home-div h1{
+    font-size: 3rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.planets{
+  
+    width: 100%;
+    display: flex;
+    /* position: absolute; */
+   justify-content: center;
+}
+.planet-div img{
+    width: 8em;
+    margin-top: 3em;
+}
+
+.home-div{
+    /* position: absolute; */
+    /* background-color: aliceblue; */
+    margin-top: 10em;
+    display: flex;
+    flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+h1{
+    color: white;
+    font-size: 40px;
+ 
+}
+.about-space div{
+    width: 25rem;
+    margin-right: 2em;
+}
+p{
+    color: white;
+    padding: 2em;
+    font-size: 20px;
+}
+.about-space{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+.about-main{
+
+    /* position: absolute; */
+    margin-top: 20em;
+  
+    display: flex;
+    flex-direction: column;
+width: 100vw;
+align-items: center;
+}
+
+
+.contact-div{
+    width: 100%;
+    z-index: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10em;
+    margin-bottom: 5em;
+    background-color: gray;
+}
+
+.contact-divv {
+   margin-right: 0.5em;
+display: flex;
+flex-direction: column;
+align-items: center;
+opacity: 0.7;
+}
+.contact-img {
+    width: 3em;
+    height:3em;
+    }
+.acc-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.acc-div a{
+    text-decoration: none;
+    color: white;
+    padding-left: 1em;
+    transition: 0.2s;
+
+}
+/* ---------------background-image */
+
+/* .background-image{
+    
+    background-image: url("https://cdn.pixabay.com/photo/2017/02/08/12/46/moon-2048727_960_720.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+} */
+  
+/* hovering */
+.planet-div{
+    transition: 0.3s;
+}
+.planet-div:hover{
+    margin-top: 2em;
+    transition: 0.3s;
+}
+
+.header-op div:hover{
+    opacity: 0.3;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.anything:hover{
+    opacity: 0.3;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.acc-div a:hover{
+    opacity: 1;
+    color: rgb(197, 184, 184);
+    transition: 0.2s;
+
+}
+
+.home-div h1:hover{
+font-size: 4rem;
+transition: 0.5s;
+}
